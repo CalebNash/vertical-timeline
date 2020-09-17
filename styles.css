@@ -1,0 +1,21 @@
+body {
+  background-color: #A9A9A9;
+}
+
+.fullPage {
+  display: flex;
+  width: 100%;
+  display: inline-block;
+}
+
+.card {
+  border-radius: 4px;
+  width: 30%;
+  background-color: #F5F5F5;
+  margin: 10px;
+  box-shadow: 0px 0px 10px gray;
+}
+
+.date {
+  background-color: #EC515C;
+}
