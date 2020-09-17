@@ -10,12 +10,78 @@ body {
 
 .card {
   border-radius: 4px;
-  width: 30%;
+  width: 35%;
   background-color: #F5F5F5;
-  margin: 10px;
+  margin: 70px 10px 70px 10px;
   box-shadow: 0px 0px 10px gray;
+  position: relative;
 }
 
 .date {
   background-color: #EC515C;
+  display: inline-block;
+  color: #F5F5F5;
+  padding: 10px;
+}
+
+header {
+  width: 100%
+}
+
+.title {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.paragraph {
+  margin-left: 30px;
+  margin-right: 40px;
+}
+
+.card1 {
+  left: 10%;
+}
+
+.date1 {
+  margin: 0;
+  position: sticky;
+  left: 100%;
+}
+
+.card2 {
+  left: 53.5%
+}
+
+.date2 {
+  margin: 0;
+  position: sticky;
+}
+
+.card3 {
+  left: 10%;
+}
+
+.date3 {
+  margin: 0;
+  position: sticky;
+  left: 100%;
+}
+
+.button {
+  display: inline-block;
+  color: #F5F5F5;
+  background: #276188;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+
+.middle-line {
+  border-left: 6px solid #215D89;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
 }
